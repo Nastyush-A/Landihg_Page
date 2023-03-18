@@ -101,7 +101,7 @@
     margin-bottom: 36px;
 }
 
-.button-active {
+.button__active {
     font-family: 'Open Sans';
     display: inline-block;
     box-sizing: border-box;
@@ -146,4 +146,113 @@
     align-items: flex-start;
     max-width: 1250px;
     margin: auto;
+}
+
+/* Services */
+
+.section-indent {
+    padding-top: 102px;
+    padding-bottom: 110px;
+    margin-left: 328px;
+}
+
+.section__content, .section__services {
+    display: inline-block;
+    max-width: 600px;
+    margin: 0;
+}
+
+.section__content {
+    margin-right: 20px;
+}
+
+.section__heading {
+    font-family: 'Open Sans', 'Arial', 'Helvetica', sans-serif;
+    font-weight: 700px;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 0;
+}
+
+.section__text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    max-width: 520px;
+    margin: 0;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.button-white {
+    font-weight: 700;
+    font-size: 19px;
+    color: #FF2D2D;
+    width: 227px;
+    height: 58px;
+    background: #FFFFFF;
+    border: 2px solid #FF2D2D;
+}
+
+.button-white:hover {
+    background-color: #FF2D2D;
+    color: #FFFFFF;
+}
+
+/* Services */
+
+.section__services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 610px;
+}
+
+.section__service {
+    max-width: 301px;
+}
+
+.section__service__heading {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 500px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    margin-top: 80px;
+    position: relative;
+}
+
+.section__service__text {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 28px;
+    width: 100%;
+    max-width: 520px;
+    margin: 0;
+}
+
+.section__service__heading-manag::before {
+    content: url("../img/manag.svg");
+    position: absolute;
+    top: -60px;
+}
+
+.section__service__heading-ux::before {
+    content: url("../img/ux.svg");
+    position: absolute;
+    top: -60px;
+}
+
+.section__service__heading-logo::before {
+    content: url("../img/logo.svg");
+    position: absolute;
+    top: -60px;
+}
+
+.section__service__heading-anim::before {
+    content: url("../img/anim.jpg");
+    position: absolute;
+    top: -60px;
 }
