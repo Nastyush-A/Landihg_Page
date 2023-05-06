@@ -16,23 +16,40 @@
             <nav class="header__navigation">
                 <ul class="menu">
                     <li class="menu__item">
-                        <a class="menu__link" href="#">home</a>
+                        <a class="menu__link" href="#home">home</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">portfolio</a>
+                        <a class="menu__link" href="#portfolio">portfolio</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">about us</a>
+                        <a class="menu__link" href="#about">about us</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link" href="#">contact</a>
+                        <a class="menu__link" href="#contact">contact</a>
                     </li>
                 </ul>
+                <div class="burger__menu-conteiner">
+                    <button class="burger__button"></button>
+                    <ul class="burger__menu hide-popup">
+                        <li class="burger__menu__item">
+                            <a class="burger__menu__link" href="#home">home</a>
+                        </li>
+                        <li class="burger__menu__item">
+                            <a class="burger__menu__link" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="burger__menu__item">
+                            <a class="burger__menu__link" href="#about">about us</a>
+                        </li>
+                        <li class="burger__menu__item">
+                            <a class="burger__menu__link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>    
         </header>
     </div>  
     <main class="page-gray">
-        <section class="about section">
+        <section class="about section" id="home">
             <div class="about__content">
                 <h1 class="about__heading">our strong organaisation</h1>
                 <p class="about__text text__all">
@@ -73,7 +90,7 @@
 
     <hr class="divider-gray">
     
-    <div class="section products">
+    <div class="section products" id="portfolio">
         <section class="section_products">
             <h2 class="products__heading heading__general">feature products</h2>
             <p class="products__text text__all">Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore et.</p>
@@ -107,7 +124,7 @@
             <img class="product__card" src="./img/work-8.jpg" alt="Изображение товара">
         </div>
     </div>
-    <div class="section team">
+    <div class="section team" id="about">
         <section class="team_section">
                 <h2 class="team__heading heading__general">Meet our team</h2>
                 <p class="team__text text__all">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</p>
@@ -155,7 +172,7 @@
             <button class="subscribe__button button__active">subscribe</button>
         </form>
     </div>
-    <div class="feedback">
+    <div class="feedback" id="contact">
         <section class="">
                 <h2 class="feedback__heading heading__general">get in touch</h2>
                 <p class="feedback__text text__all">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
@@ -189,5 +206,6 @@
             </div>
         </div>
     </div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
