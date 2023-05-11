@@ -55,10 +55,18 @@
                 <p class="about__text text__all">
                     Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt  ut labore et. ectetur adig ipis cing elit, sed do eiusmod tempor incididunt.
                 </p>
-                <a class="button__active button-red" href="">Contact Us</a>
+                <a class="button__active button-red" href="login.html">Contact Us</a>
             </div>
-            <div class="about__img-red">
-                <div class="about__img-gray"></div>
+            <iframe class="video" src="https://www.youtube.com/embed/UoQpgdtzxLE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="contactUs__popup">
+                <form class="contactUs__form" method="post">
+                    <div class="contactUs__popup__container">
+                        <input class="contactUs__input" placeholder="Name" required>
+                        <input class="contactUs__input" placeholder="Your Mail" required>
+                    </div>
+                    <textarea  class="contactUs__textarea" placeholder="Type your message"></textarea>
+                    <button class="contactUs__button button__active">Enter</button>
+                </form>
             </div>
         </section>
     </main>
@@ -131,7 +139,7 @@
                 <hr class="header__line header__line-left">
         </section>
         <section class="team__members">
-            <img class="team__left-foto" src="./img/photo.png" alt="Фото сотрудника">
+            <img class="team__left-foto" src="./img/cat1.jpg" alt="Фото сотрудника">
             <div class="team__right-content">
                 <div class="">
                     <h2 class="team__right-name">mark waugh</h2>
@@ -146,19 +154,19 @@
                 <div class="team__members__photo">
                     <section class="team__member__container">
                         <h3 class="team__member-name">sokina jue</h3>
-                        <img class="team__right-foto" src="./img/photo.png" alt="Фото сотрудника">
+                        <img class="team__right-foto" src="./img/cat2.jpg" alt="Фото сотрудника">
                     </section>
                     <section class="team__member__container">
                         <h3 class="team__member-name">sokina jue</h3>
-                        <img class="team__right-foto" src="./img/photo.png" alt="Фото сотрудника">
+                        <img class="team__right-foto" src="./img/cat3.jpeg" alt="Фото сотрудника">
                     </section>
                     <section class="team__member__container">
                         <h3 class="team__member-name">sokina jue</h3>
-                        <img class="team__right-foto" src="./img/photo.png" alt="Фото сотрудника">
+                        <img class="team__right-foto" src="./img/cat4.jpg" alt="Фото сотрудника">
                     </section>
                     <section class="team__member__container">
                         <h3 class="team__member-name">sokina jue</h3>
-                        <img class="team__right-foto" src="./img/photo.png" alt="Фото сотрудника">
+                        <img class="team__right-foto" src="./img/cat5.jpg" alt="Фото сотрудника">
                     </section>
                 </div>
             </div>
@@ -167,7 +175,7 @@
     <div class="subscribe">
         <h2 class="subscribe__heading">Design tips, tricks, and freebies. Delivered weekly.</h2>
         <p class="subscribe__text text__all">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
-        <form class="subscribe__form">
+        <form class="subscribe__form" method="post">
             <input class="subscribe__input" type="email" name="email" placeholder="Email Address..." required>
             <button class="subscribe__button button__active">subscribe</button>
         </form>
@@ -179,7 +187,7 @@
                 <hr class="header__line header__line-left">
         </section>
         <div class="feedback__flex__container">
-            <form class="feedback__form">
+            <form class="feedback__form" method="post">
                 <div class="feedback__input__container">
                     <input class="feedback__input" placeholder="Name" required>
                     <input class="feedback__input" placeholder="Your Mail" required>
@@ -197,7 +205,7 @@
     </div>    
     <div class="footer">
         <div class="footer__conteiner">
-            <p class="footer__text">&copy Copyright @Junaed 2016, All rights reserved.</p>
+            <p class="footer__text">&copy; Copyright @Junaed 2016, All rights reserved.</p>
             <div class="footer__links">
                 <a class="footer__link" href="https://vk.com/"><img src="./img/Twitter.svg" alt="Twitter"></a>
                 <a class="footer__link" href="https://spb.hh.ru/"><img src="./img/LinkedIn.svg" alt="LinkedIn"></a>
@@ -206,6 +214,6 @@
             </div>
         </div>
     </div>
-    <script src="./js/index.js"></script>
+    <script async src="./js/index.js"></script>
 </body>
 </html>
